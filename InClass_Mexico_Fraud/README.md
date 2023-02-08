@@ -18,7 +18,7 @@ Luckily, another data scientist, [Francisco Cantú](https://franciscocantu.githu
 
 You might see how the altered tallies look like in the following figure.
 
-![1675827583268](image/README/1675827583268.png)
+![1675827583268](image/fraud.png)
 
 Francisco utilized CNN to automatically distinguish between altered and unaltered totals, and he has graciously provided us with the dataset.
 
@@ -37,10 +37,38 @@ colnames(mexfraud)
 #[1] "V1"  "rural3"  "union1988"  "centeno"  "totalexperience" "replacement" 
 #[7] "iddto"  "idedo"  "jornadaPRI"  "noOP"  "fraud"
 ```
+“V1” is the unique name for each tally sheet.
 
+"rural3" is the proportion of citizens in the district living in communities with fewer than 50,000 inhabitants according to the 1990 census.
+
+"union1988" identifies if the PRI nominated a union leader as a legislative candidate in the tally’s district. The PRI’s territorial base for mobilization and intimidation on Election Day relied on labor unions, which displayed their manpower and resources at the polling stations in exchange for political positions within the party.
+
+"centeno" identifies if the governor is in this within Salinas’s political group. 1 refers to a tally in the state where the governor was in this within Salinas’s political group, and 0 if otherwise. 
+
+"totalexperience" indicates whether the state executive had previously held an elected public office. refers to a tally in the state where the governor was previously elected as mayor, deputy, or senator, and 0 if otherwise. Electorally skillful governors are more able to alter the tally. 
+
+"replacement" identifies if there was any reappointment of election officials during the 6 months prior to the election in the district.
+
+"iddto"  is an indicator of the polling station’s district. 
+
+"idedo" is an indicator of the polling station’s states.
+
+"jornadaPRI" is the proportion of survey respondents in every state who identified with the PRI 3 weeks prior to the Election Day.
+
+"noOP" is a binary variable indicating those tallies with no signature of even one representative from the opposition.
+
+"fraud" is a binary variable indicating if the sheet has been altered.
+
+You may get the summary of the dataset or check signle variable by running the following R code:
+```
+summary(mexfraud)
+mexfraud$V1
+```
 
 ## Day One
 
 As a detective unfamiliar with Mexican politics, how many states and districts are there in Mexico according to this dataset?
+
 What is the proportion of altered tallies in each state?
+
 Is there any relation between the “jornadaPRI” and the proportion of altered tallies?
