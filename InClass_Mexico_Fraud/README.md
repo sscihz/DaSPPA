@@ -26,49 +26,47 @@ For more information, you can read [The Fingerprints of Fraud: Evidence from Mex
 
 ### The dataset
 
-The dataset contains 52,999 vote tally sheets from the 1998 presidential election. Each row represents a tally sheet, and each column represents a candidate. The column “jornadaPRI” indicates whether the tally sheet was altered or not. The column “jornadaPRI” is 1 if the tally sheet was altered, and 0 if the tally sheet was not altered. The column “jornadaPRI” is the target variable.
-
+The dataset contains 52,288 vote tally sheets from the 1998 presidential election. Each row represents a tally sheet, and each column represents a candidate. The column “jornadaPRI” indicates whether the tally sheet was altered or not. The column “jornadaPRI” is 1 if the tally sheet was altered, and 0 if the tally sheet was not altered. The column “jornadaPRI” is the target variable.
 
 Now let's load and check the dataset:
+
 ```
-mexico_fraud <- read.csv("")
+library(tidyverse)
+mexico_fraud <- read_csv("https://raw.githubusercontent.com/sscihz/DaSPPA/main/InClass_Mexico_Fraud/Data/mexico_fraud.csv")
 colnames(mexfraud) 
 
 #[1] "V1"  "rural3"  "union1988"  "centeno"  "totalexperience" "replacement" 
 #[7] "iddto"  "idedo"  "jornadaPRI"  "noOP"  "fraud"
 ```
-“V1” is the unique name for each tally sheet.
 
-"rural3" is the proportion of citizens in the district living in communities with fewer than 50,000 inhabitants according to the 1990 census.
+`V1` is the unique name for each tally sheet.
 
-"union1988" identifies if the PRI nominated a union leader as a legislative candidate in the tally’s district. The PRI’s territorial base for mobilization and intimidation on Election Day relied on labor unions, which displayed their manpower and resources at the polling stations in exchange for political positions within the party.
+`rural3` is the proportion of citizens in the district living in communities with fewer than 50,000 inhabitants according to the 1990 census.
 
-"centeno" identifies if the governor is in this within Salinas’s political group. 1 refers to a tally in the state where the governor was in this within Salinas’s political group, and 0 if otherwise. 
+`union1988` identifies if the PRI nominated a union leader as a legislative candidate in the tally’s district. The PRI’s territorial base for mobilization and intimidation on Election Day relied on labor unions, which displayed their manpower and resources at the polling stations in exchange for political positions within the party.
 
-"totalexperience" indicates whether the state executive had previously held an elected public office. refers to a tally in the state where the governor was previously elected as mayor, deputy, or senator, and 0 if otherwise. Electorally skillful governors are more able to alter the tally. 
+`centeno` identifies if the governor is in this within Salinas’s political group. 1 refers to a tally in the state where the governor was in this within Salinas’s political group, and 0 if otherwise.
 
-"replacement" identifies if there was any reappointment of election officials during the 6 months prior to the election in the district.
+`totalexperience` indicates whether the state executive had previously held an elected public office. refers to a tally in the state where the governor was previously elected as mayor, deputy, or senator, and 0 if otherwise. Electorally skillful governors are more able to alter the tally.
 
-"iddto"  is an indicator of the polling station’s district. 
+`replacement` identifies if there was any reappointment of election officials during the 6 months prior to the election in the district.
 
-"idedo" is an indicator of the polling station’s states.
+`iddto`  is an indicator of the polling station’s district.
 
-"jornadaPRI" is the proportion of survey respondents in every state who identified with the PRI 3 weeks prior to the Election Day.
+`idedo` is an indicator of the polling station’s states.
 
-"noOP" is a binary variable indicating those tallies with no signature of even one representative from the opposition.
+`jornadaPRI` is the proportion of survey respondents in every state who identified with the PRI 3 weeks prior to the Election Day.
 
-"fraud" is a binary variable indicating if the sheet has been altered.
+`noOP` is a binary variable indicating those tallies with no signature of even one representative from the opposition.
 
-You may get the summary of the dataset or check signle variable by running the following R code:
-```
-summary(mexfraud)
-mexfraud$V1
-```
+`fraud` is a binary variable indicating if the sheet has been altered.
+
 
 ## Day One
 
 As a detective unfamiliar with Mexican politics, how many states and districts are there in Mexico according to this dataset?
 
-What is the proportion of altered tallies in each state?
+What is the proportion of altered tallies in each state? Also find the state with the highest and lowest proportion of altered tallies.
 
-Is there any relation between the “jornadaPRI” and the proportion of altered tallies?
+Do you have any thoery about the variation of the proportion of altered tallies across states? Can you find any evidence to support your theory by the techniques we have learned in class?
+
