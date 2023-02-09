@@ -76,4 +76,4 @@ mexico_fraud <- read_csv("https://raw.githubusercontent.com/sscihz/DaSPPA/main/I
   
 - What is the proportion of altered tallies in each state? Also find the state with the highest and lowest proportion of altered tallies.
 
-- Do you have any thoery about the variation of the proportion of altered tallies across states? Can you find any evidence to support your theory by the techniques we have learned in class?
+- Do you have any thoery about the variation of the proportion of altered tallies across states? Can you find any evidence to support your theory by the techniques we have learned in class? (Hint:`cor()` might be a useful function)
