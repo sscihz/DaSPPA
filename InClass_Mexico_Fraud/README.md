@@ -6,9 +6,9 @@ In 1998, Mexico had a close presidential election. The ruling party, the Institu
 
 Opposition parties identified and pointed out irregularities around the country during the voting process. However, questions about the state's legitimacy only emerged after the polls had closed on election night.
 
-When 2% of the vote tallies had been counted, the preliminary results showed the PRI’s imminent defeat in Mexico City metropolitan area and a very narrow vote margin between PRI and FDN. A few minutes later, the screens at the Ministry of Interior went blank, an event that electoral authorities justified as a technical problem caused by an overload on telephone lines. The vote count was therefore suspended for three days, despite the fact that opposition representatives found a computer in the basement that continued to receive electoral results. Three days later, the vote count resumed, and soon the official announced PRI’s winning with 50.4% of the vote.
+When 2% of the vote tallies had been counted, the preliminary results showed the PRI’s imminent defeat in Mexico City metropolitan area and a very narrow vote margin between PRI and FDN. A few minutes later, the screens at the Ministry of Interior went blank, an event that electoral authorities justified as a technical problem caused by an overload on telephone lines. The vote count was therefore suspended for three days, despite the fact that opposition representatives found a computer in the basement that continued to receive electoral results. Three days later, the vote count resumed, and soon the official announced PRI’s winning with 50.4% of the vote. 
 
-What happened on that night and the following days? In the next weeks, we want to use data science tools to play detective and uncover the truth about the election.
+What happened on that night and the following days? Was it just an accident or did PRI manipulate the election outcome? In the next weeks, we want to use data science tools to play detective and uncover the truth about the election.
 
 ### The assistance from another data scientist
 
@@ -61,12 +61,19 @@ colnames(mexfraud)
 
 `fraud` is a binary variable indicating if the sheet has been altered.
 
+## Exercise One
 
-## Day One
+This part is the in class exercies for Feb 10. After you read the background of this study, please try to solve following questions using R in Posit Cloud:
 
-As a detective unfamiliar with Mexican politics, how many states and districts are there in Mexico according to this dataset?
+To laod the data, you should run the following code:
 
-What is the proportion of altered tallies in each state? Also find the state with the highest and lowest proportion of altered tallies.
+```
+library(tidyverse)
+mexico_fraud <- read_csv("https://raw.githubusercontent.com/sscihz/DaSPPA/main/InClass_Mexico_Fraud/Data/mexico_fraud.csv")
+```
 
-Do you have any thoery about the variation of the proportion of altered tallies across states? Can you find any evidence to support your theory by the techniques we have learned in class?
+- How many states and districts are there in Mexico according to this dataset?
+  
+- What is the proportion of altered tallies in each state? Also find the state with the highest and lowest proportion of altered tallies.
 
+- Do you have any thoery about the variation of the proportion of altered tallies across states? Can you find any evidence to support your theory by the techniques we have learned in class?
