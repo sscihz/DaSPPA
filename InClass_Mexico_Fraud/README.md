@@ -26,9 +26,7 @@ For more information, you can read [The Fingerprints of Fraud: Evidence from Mex
 
 ### The dataset
 
-The dataset contains 52,288 vote tally sheets from the 1998 presidential election. Each row represents a tally sheet, and each column represents a candidate. The column “jornadaPRI” indicates whether the tally sheet was altered or not. The column “jornadaPRI” is 1 if the tally sheet was altered, and 0 if the tally sheet was not altered. The column “jornadaPRI” is the target variable.
-
-Now let's load and check the dataset:
+The dataset contains 52,288 vote tally sheets from the 1998 presidential election. Now let's load and check the dataset:
 
 ```
 library(tidyverse)
