@@ -24,15 +24,15 @@ Francisco utilized CNN to automatically distinguish between altered and unaltere
 
 For more information, you can read [The Fingerprints of Fraud: Evidence from Mexico&#39;s 1988 Presidential Election](https://www.cambridge.org/core/journals/american-political-science-review/article/fingerprints-of-fraud-evidence-from-mexicos-1988-presidential-election/8F3C1BCA4C53FE85EA48E51321E339E9).
 
-### The dataset
+### The datasets
 
-The dataset contains 52,288 vote tally sheets from the 1998 presidential election. Each row represents a tally sheet, and each column represents a candidate. The column “jornadaPRI” indicates whether the tally sheet was altered or not. The column “jornadaPRI” is 1 if the tally sheet was altered, and 0 if the tally sheet was not altered. The column “jornadaPRI” is the target variable.
+Francisco provide us with three datasets. There are two datasets containing raw data and one dataset used for regression analysis. 
 
-Now let's load and check the dataset:
+We give a brief introduction about regression analysis dataset which contains 52,288 vote tally sheets from the 1998 presidential election:
 
 ```
 library(tidyverse)
-mexico_fraud <- read_csv("https://raw.githubusercontent.com/sscihz/DaSPPA/main/InClass_Mexico_Fraud/Data/mexico_fraud.csv")
+mexico_fraud <- read_csv("https://raw.githubusercontent.com/sscihz/DaSPPA/main/InClass_Mexico_Fraud/Data/RawData/mexico_fraud.csv")
 colnames(mexfraud) 
 
 #[1] "V1"  "rural3"  "union1988"  "centeno"  "totalexperience" "replacement" 
@@ -61,8 +61,10 @@ colnames(mexfraud)
 
 `fraud` is a binary variable indicating if the sheet has been altered.
 
+
 ## Exercise One
 
-Replicate the following figure setp by step.
+Replicate the following figure setp by step. The data you'll use is `ExericseOne.csv` in the data folder. 
 
 ![REPLICATION_ONE](image/replication.png)
+
