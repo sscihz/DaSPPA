@@ -66,5 +66,11 @@ colnames(mexfraud)
 
 Replicate the following figure setp by step. The data you'll use is `ExericseOne.csv` in the data folder. 
 
+Notes: 
+
+Q1.4: `alter_dummy` 1 suggests the rate of alteration is higher than .5, you should change it as a categorical variable
+Q1.6: `replacement` identifies if there was any reappointment of election officials during the 6 months prior to the election in the district.
+
+
 ![REPLICATION_ONE](image/replication.png)
 
