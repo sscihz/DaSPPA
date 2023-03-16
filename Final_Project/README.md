@@ -3,7 +3,7 @@
 ## Data Catalogs Organized by Others
 ### PolData
 
-A collection of political datasets. The datasets are listed below within specific categories: cabinets, citizens, constitutions, political institutions, parties and politicians, democracy, economics, elections, international relations, media, policy, political elites, political speeches and debates. All datasets are listed in the datasets in the repository (.xlsx, .csvs) with detailed information on the topics, coverage and availability of the respective datasets. Click [here](https://github.com/erikgahner/PolData)
+A collection of political datasets. The datasets are listed below within specific categories: cabinets, citizens, constitutions, political institutions, parties and politicians, democracy, economics, elections, international relations, media, policy, political elites, political speeches and debates. All datasets are listed in the datasets in the repository (.xlsx, .csvs) with detailed information on the topics, coverage and availability of the respective datasets. Click [here](https://github.com/erikgahner/PolData) for details.
 
 ### Open Data from Cities
 
