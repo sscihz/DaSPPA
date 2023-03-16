@@ -1,5 +1,9 @@
-## The V-Dem Dataset
+# Useful Datasets for DaSPPA Final Project
 
+## PolData
+A collection of political datasets. The datasets are listed below within specific categories: cabinets, citizens, constitutions, political institutions, parties and politicians, democracy, economics, elections, international relations, media, policy, political elites, political speeches and debates. All datasets are listed in the datasets in the repository (.xlsx, .csvs) with detailed information on the topics, coverage and availability of the respective datasets. Click [here](https://github.com/erikgahner/PolData)
+
+## The V-Dem Dataset
 Includes the world's most comprehensive and detailed democracy ratings. The latest version of the dataset and associated reference documents can be downloaded free of charge below. Click [here](https://www.v-dem.net/data/the-v-dem-dataset/) for details.
 
 ## V-Indoc Dataset
@@ -26,16 +30,21 @@ This dataset contains information on second jobs held by Members of Parliament (
 
 This is a dataset of roll-call votes in the UN General Assembly 1946-2021 (sessions 1-76), note that some votes in the 76th session take place in 2022. Note that for the four most recent years, failed votes and votes on amendments and paragraphs have not yet been added. Moreover, "important votes" are also not yet coded for these years. The dataset includes issue codes and descriptions. It also contains ideal point estimates derived from these votes as described in Bailey, Michael A., Anton Strezhnev, and Erik Voeten. "Estimating dynamic state preferences from United Nations voting data." Journal of Conflict Resolution 61.2 (2017): 430-456. Click [here](https://github.com/evoeten/United-Nations-General-Assembly-Votes-and-Ideal-Points) for details.
 
+## The Makeup of The CCP Elite
+Drawing on years of data collection work headed up by UC San Diego’s Victor Shih and updated in the Summer of 2022, the [China Data Lab CCP Elite Portal](https://chinadatalab.ucsd.edu/elites/) allows users to visualize the key characteristics of over 2000 Chinese Communist Party elites, active government officials now starting from the 15th Party Congress (1997) going up through the 19th Party Congress (2017).  Using the portal, you can easily access visualizations detailing the elite’s age, party rank, work position, education level, gender, ethnicity, birth province, and alma mater. This tool allows scholars and interested members of the public to gain insight into the demographics of China’s ruling class and how it has changed from Jiang Zemin to Xi Jinping. Click [here](https://chinadatalab.ucsd.edu/viz-blog/the-makeup-of-the-ccp-elite-update/) for details.
+
+## China City Yearbook
+The China City Yearbook is a comprehensive database of city-level statistics for China from 1990s to the present. The database includes data on population, economic activity, and urbanization, as well as data on the political and administrative structure of cities. You can find the data in this repo. 
+
 ## China Historical GIS
-
 The CHGIS project has produced a comprehensive series of datasets related to the administrative geography of Chinese History. The data layers include nationwide coverages (for the years 1820 and 1911), and time series (for the Dynastic period from 221 BCE to 1911 CE). The administrative features include Provinces, Circuits, Prefectures, and Counties as they changed over time. Supplemental datasets include G.W. Skinner regional systems, Buddhist sites, features from historic Russian maps of China, Tibetan townships, modern gazetteer layers for each province, and many others. All CHGIS data is published for free academic use, and the contents are made available for online searching and access via XML webservice. Click [here](https://dataverse.harvard.edu/dataverse/chgis_v6) for details.
-
-## Spatial Data from China Data Lab
-The objective of the China Data Lab is to build a core infrastructure for disseminating and utilizing spatiotemporal data, particularly data from China, to support case-based study and training. It will allow researchers to discover geospatial data from multiple sources, conduct spatial data analysis with GIS and statistics tools on the cloud, develop data-driven study cases, and share data and results as a package with others online. The platform will also support case-based training programs on spatiotemporal data analysis for economic, social, public health, urban planning, and other research subjects. Click [here](https://dataverse.harvard.edu/dataverse/chinadatainstitute) for details.
 
 ## China Biographical Database Project
 The long-term goal of CBDB is systematically to include all significant biographical material from China’s historical record and to make the contents available free of charge, without restriction, for academic use. That data is regularly being enriched and new biographical entries are being created for Tang, Five Dynasties, Liao, Song, Jin, Yuan, Ming, and Qing figures. Click [here](https://dataverse.harvard.edu/dataverse/cbdb) for details.
 
+## Spatial Data from China Data Lab
+
+The objective of the China Data Lab is to build a core infrastructure for disseminating and utilizing spatiotemporal data, particularly data from China, to support case-based study and training. It will allow researchers to discover geospatial data from multiple sources, conduct spatial data analysis with GIS and statistics tools on the cloud, develop data-driven study cases, and share data and results as a package with others online. The platform will also support case-based training programs on spatiotemporal data analysis for economic, social, public health, urban planning, and other research subjects. Click [here](https://dataverse.harvard.edu/dataverse/chinadatainstitute) for details.
 
 ## Geospatial Data Catalogs
 
