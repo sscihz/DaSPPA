@@ -1,11 +1,11 @@
 # Useful Datasets for DaSPPA Final Project
 
-## Data Catalogs Organized by Others
+## Data Catalogs
 ### PolData
 
 A collection of political datasets. The datasets are listed below within specific categories: cabinets, citizens, constitutions, political institutions, parties and politicians, democracy, economics, elections, international relations, media, policy, political elites, political speeches and debates. All datasets are listed in the datasets in the repository (.xlsx, .csvs) with detailed information on the topics, coverage and availability of the respective datasets. Click [here](https://github.com/erikgahner/PolData) for details.
 
-### Open Data from Cities
+### Open Data from Government
 
 As cities continue to grow and become more complex, the need for accessible and comprehensive data has become increasingly important. Open data initiatives have emerged as a solution to this challenge, with many cities providing open data portals that allow the public to access and use city data in various ways. Open data provided by cities can enable greater transparency and accountability, support evidence-based decision making, foster innovation and economic growth, and engage citizens in the development of their communities. This has led to a growing movement of cities embracing open data and using it as a tool to improve the quality of life for their residents.
 
